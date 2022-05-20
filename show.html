@@ -253,8 +253,9 @@
                                 if (sequence.length === 0) {
                                     S.Shape.switchShape(S.ShapeBuilder.letter(''));
                                 } else {
-                                    window.open('result.html', '_self');
-                                    performAction(sequence);
+                                    // window.open('result.html', '_self');
+                                    window.location.reload();
+                                    // performAction(sequence);
                                 }
                             } else {
                                 S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
